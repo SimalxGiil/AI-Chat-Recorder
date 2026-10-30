@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "AI Chat Recorder",
+    "version": "1.0.0",
+    "description": "Capture a chat from any AI website and export it as a Markdown context file you can hand to another AI.",
+    "permissions": ["activeTab", "scripting", "storage", "clipboardWrite"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "AI Chat Recorder"
+    }
+}
